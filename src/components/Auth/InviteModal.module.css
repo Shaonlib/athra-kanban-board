@@ -1,0 +1,28 @@
+.info {
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.6;
+  padding: 12px 14px;
+  background: var(--surface-2);
+  border-radius: var(--r-md);
+  border: 1px solid var(--border);
+}
+
+.error {
+  padding: 10px 14px;
+  background: rgba(220,38,38,0.1);
+  border: 1px solid rgba(220,38,38,0.3);
+  border-radius: var(--r-md);
+  color: var(--high);
+  font-size: 13px;
+}
+
+.success {
+  padding: 10px 14px;
+  background: rgba(10,122,80,0.1);
+  border: 1px solid rgba(10,122,80,0.3);
+  border-radius: var(--r-md);
+  color: var(--done);
+  font-size: 13px;
+  font-weight: 500;
+}

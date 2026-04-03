@@ -1,0 +1,23 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 16px;
+  flex: 1;
+  overflow: hidden;
+  min-height: 0;
+}
+
+@media (max-width: 900px) {
+  .board {
+    grid-template-columns: repeat(2, 1fr);
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .board {
+    grid-template-columns: 1fr;
+    overflow-y: auto;
+  }
+}
